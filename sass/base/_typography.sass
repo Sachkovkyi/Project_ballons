@@ -1,0 +1,74 @@
+body
+    font-family: "Lato", sans-serif
+    font-weight: 400
+    color: $color-gray
+
+
+.title-first 
+    color: $color-white
+    font-family: "Lato", sans-serif
+
+
+    &__main
+        display: block
+        font-weight: 800
+        font-size: 5rem
+        line-height: 6rem
+        letter-spacing: 1rem
+        text-transform: uppercase
+        margin-bottom: 1px
+        animation-name: lefttoright
+        animation-duration: 1.7s
+        animation-delay: 1s
+        animation-timing-function: ease
+        backface-visibility: hidden
+
+    &__secondary
+        display: block
+        font-weight: 100    
+        font-size: 4rem
+        line-height: 4.8rem
+        letter-spacing: .5rem
+        animation-name: righttoleft
+        animation-duration: 1.7s
+        animation-delay: 1s
+        animation-timing-function: ease
+        backface-visibility: hidden
+        margin-bottom: 65px
+
+.title-secondary
+    text-align: center
+    font-family: Lato
+    font-size: 3.6rem
+    font-style: normal
+    font-weight: 800
+    line-height: normal
+    letter-spacing: 1rem
+    text-transform: uppercase
+    background: linear-gradient(90deg, rgba($color-brown-dark, 0.7) 0.03%, rgba($color-brown-dark, 0.7) 99.94%) no-repeat
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%)
+    -webkit-background-clip: text
+    color: transparent
+    transition: all 0.3s
+    backface-visibility: hidden
+    &:hover
+        transform: skewY(2deg) skewX(15deg) scale(1.05) 
+        text-shadow: 0rem .4rem .4rem rgba($color-brown-dark, .25)
+
+.title__about
+    color: #777
+    font-family: Lato
+    font-size: 2rem
+    font-style: normal
+    font-weight: 700
+    line-height: normal
+    letter-spacing: .2rem
+
+.section__text
+    color: #777
+    font-family: Lato
+    font-size: 1.6rem
+    font-style: normal
+    font-weight: 400
+    line-height: 140%
+    letter-spacing: .2rem 
